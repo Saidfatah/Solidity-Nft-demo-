@@ -1,0 +1,17 @@
+{
+  "name": "firstapp-",
+  "version": "1.0.0",
+  "description": "first solidity contract ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chain_start": "ganache-cli",
+    "migrate": "npm run chain_start && truffle migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "ganache-cli": "^6.12.2"
+  }
+}
